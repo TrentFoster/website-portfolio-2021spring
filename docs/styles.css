@@ -1,0 +1,16 @@
+
+
+.Home{
+
+  border: 6px #444444 solid;
+  border-radius:10px;
+  -moz-border-radius: 40px;
+  background: blue;
+  color: white;
+  width: 12%;
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+
+}
