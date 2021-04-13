@@ -15,14 +15,29 @@ grid-template-rows: 0.25fr 1fr;
 
 }
 
+h1{
+
+text-align: center;
+font-size: 250%;
+color: #fdae00;
+   text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+
+
+}
+
 .section-1{
 
 grid-column: 1/3;
+grid-row: 1/2;
 color: #fff;
 background-color: #5995DA;  /* Blue */
 display:flex;
-justify-content: center;
 padding: 2%;
+align-items: center;
 
 }
 
@@ -56,6 +71,7 @@ padding: 2%;
   border-radius:10px;
   display: flex;
   align-items: center;
+  align-self: center;
   justify-content: space-around;
 
 }
@@ -75,6 +91,21 @@ background-color: #aaa;
 
 
 
+
+
+}
+
+.section-4{
+
+  grid-column: 1/3;
+  grid-row: 2/3;
+  background-color: #aaa;
+
+}
+
+.PDFcontainer{
+
+  padding: 30px;
 
 
 }
